@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696464"
+    tools:context="com.yusufcakmak.circleview.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:background="@drawable/anim_circle"
+        android:id="@+id/animationLayout"
+        android:layout_centerInParent="true"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="75dp"
+            android:id="@+id/animationView"
+            android:layout_centerInParent="true"
+            android:layout_height="75dp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="AnimControl"
+        android:layout_below="@+id/animationLayout"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/animControlButton"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
