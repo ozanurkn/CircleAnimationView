@@ -2,7 +2,7 @@
 Simple loading animation
 
 # Gif
-<img src="https://raw.githubusercontent.com/yusufcakmak/CircleAnimationView/blob/master/animation.gif"/>
+<img src="https://raw.githubusercontent.com/yusufcakmak/CircleAnimationView/master/animation.gif"/>
 
 
 License
