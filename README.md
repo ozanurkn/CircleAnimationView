@@ -1,17 +1,15 @@
 # CircleViewAnimation
 Simple loading animation
 
-for start to animation 
-
+##### for start to animation 
 animationUtil.start();
 
-for stop to animation 
-
+##### for stop to animation 
 animationUtil.stop();
 
-you can change images files in AnimationUtil class.
-
+##### you can change images files in AnimationUtil class.
 final int[] icons = {R.drawable.automobile, R.drawable.motor,R.drawable.suv};
+
 
 
 <img src="https://raw.githubusercontent.com/yusufcakmak/CircleAnimationView/master/animation.gif"/>
